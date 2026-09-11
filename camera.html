@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="OPEN UP 😮 - Live mouth-opening measurement with your own camera. Maximal Aaaa engine." />
+  <title>OPEN UP 😮 | Live Camera</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="camera-page">
+
+  <div class="floating-emoji" aria-hidden="true">😮</div>
+  <div class="floating-emoji" aria-hidden="true">🔥</div>
+  <div class="floating-emoji" aria-hidden="true">👑</div>
+  <div class="floating-emoji" aria-hidden="true">😭</div>
+  <div class="floating-emoji" aria-hidden="true">👀</div>
+  <div class="floating-emoji" aria-hidden="true">🚀</div>
+
+  <main class="camera-app">
+    <header class="app-header">
+      <p class="site-name">OPEN UP <span class="bounce-emoji" aria-hidden="true">😮</span></p>
+      <h1 class="hero-title small">SAY AAAA!</h1>
+    </header>
+
+    <section class="camera-stage" aria-label="Live camera">
+      <video id="camera" autoplay playsinline muted></video>
+      <div id="camera-status" class="camera-status" role="status" aria-live="polite">
+        Turning on the camera... 📷
+      </div>
+    </section>
+
+    <div class="controls" aria-label="Camera controls">
+      <button id="try-again-btn" type="button" class="btn btn-primary">TRY AGAIN 🔄</button>
+      <button id="stop-btn" type="button" class="btn">STOP CAMERA</button>
+      <button id="restart-btn" type="button" class="btn" hidden>RESTART CAMERA</button>
+    </div>
+
+    <section class="result" aria-live="polite">
+      <p class="result-label">MOUTH OPEN</p>
+      <p id="mouth-percent" class="mouth-percent">0%</p>
+
+      <div class="progress" role="progressbar" aria-label="Mouth opening progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+      <div class="progress-scale">
+        <span>0%</span>
+        <span>100%</span>
+      </div>
+
+      <p id="mouth-message" class="mouth-message">Preparing the Aaaa machine... 🤖</p>
+      <p id="mouth-achievement" class="mouth-achievement">🥉 Tiny Aaaa</p>
+    </section>
+
+    <footer class="privacy-note">🔒 Your camera stays in your browser. We don't save your video.</footer>
+  </main>
+
+  <div id="max-banner" class="max-banner" hidden>
+    <span class="max-banner-title">🎉 MAXIMUM AAAA! 🎉</span>
+    <span class="max-banner-sub">THE MOUTH HAS PEAKED! 👑</span>
+  </div>
+
+  <div id="confetti" aria-hidden="true"></div>
+
+  <script src="js/mouth.js"></script>
+  <script src="js/camera.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
