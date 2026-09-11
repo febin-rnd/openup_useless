@@ -2,63 +2,148 @@
 
 
 
-# [Project Name] 🎯
+# open up 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Moonlit
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Fidha - KAHM UNITY WOMENS COLLEGE
+- Member 2: Farha Febin - KAHM UNITY WOMENS COLLEGE
+  
 
 ### Project Description
-[2-3 lines about what your project does]
+Open Up  is a fun and intentionally useless web project that measures how widely a person opens their mouth using their device camera. The website uses browser-based face and mouth detection to calculate a live mouth-opening percentage.
+
+Users simply say **"AAAA!"**, open their mouth as wide as possible, and try to reach the ultimate **100% Maximum Aaaa** score. Because apparently, nobody asked for this. 😮
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+People have been opening their mouths for years without knowing exactly **how open their mouth actually is**.
+
+This creates a completely unnecessary problem:
+
+> **"How do I know if my Aaaa is big enough?"**
+
+There was clearly a need to measure this extremely important thing.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
 
+**Open Up 😮** solves this completely unnecessary problem using your webcam.
+
+The website:
+
+1. Turns on your camera.
+2. Detects your face and mouth.
+3. Measures how open your mouth is.
+4. Converts it into a percentage from **0% to 100%**.
+5. Encourages you to open wider.
+6. Celebrates when you reach **Maximum Aaaa! 🎉**
+
+Finally, technology is being used for something nobody needed.
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML,CSS,javaScript
+- none
+- - Browser MediaDevices API
+  - Browser-based face/mouth landmark detection
+  - Google Fonts
+  - CSS animation
+- - Visual Studio Code
+  - Git
+  - GitHub
+  - Web Browser
+  - Python local HTTP server
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- No special hardware is used
+  The project works with:
+
+- Laptop/Desktop/Mobile device
+- Built-in or external webcam
+- Internet connection for loading required web resources
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+git clone https://github.com/febin-rnd/openup_useless.git
 
 # Run
-[commands]
+python -m http.server 8080
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/18om3xUzpjNagniU2AB6dRFiCUHXatKgV/view?usp=drive_link
+The landing page of Open Up 😮 introduces the funny mouth-opening challenge and provides the TRY IT button to start the experience.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/1bxYjdUyTObBmqf87sfgDSIsRsNWXwq2S/view?usp=drive_link
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+The camera page displays the user's live camera feed, mouth-opening percentage, progress bar, motivational message, and achievement level.
+https://drive.google.com/file/d/1OWohiEuNII4-2OTp9ot_b0lY6eFSn0o9/view?usp=drive_link
+The maximum score screen celebrates the user after reaching 100% mouth opening with the MAXIMUM AAAA! message and visual effects.
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
+┌───────────────────┐
+                  │   Open Up Website │
+                  └─────────┬─────────┘
+                            │
+                            ▼
+                  ┌───────────────────┐
+                  │   Landing Page    │
+                  │   SAY AAAA! 😮    │
+                  └─────────┬─────────┘
+                            │
+                            ▼
+                  ┌───────────────────┐
+                  │    TRY IT 😮      │
+                  └─────────┬─────────┘
+                            │
+                            ▼
+                  ┌───────────────────┐
+                  │ Camera Permission │
+                  └─────────┬─────────┘
+                            │
+                            ▼
+                  ┌───────────────────┐
+                  │   Live Camera     │
+                  └─────────┬─────────┘
+                            │
+                            ▼
+                  ┌───────────────────┐
+                  │  Face Detection   │
+                  └─────────┬─────────┘
+                            │
+                            ▼
+                  ┌───────────────────┐
+                  │  Mouth Detection  │
+                  └─────────┬─────────┘
+                            │
+                            ▼
+                  ┌───────────────────┐
+                  │ Calculate Opening │
+                  │       0–100%      │
+                  └─────────┬─────────┘
+                            │
+                            ▼
+                  ┌───────────────────┐
+                  │ Display Live Score│
+                  └─────────┬─────────┘
+                            │
+                            ▼
+                    ┌───────────────┐
+                    │    100% ?     │
+                    └───────┬───────┘
+                            │
+                       YES  │
+                            ▼
+                  ┌───────────────────┐
+                  │ MAXIMUM AAAA! 🎉  │
+                  │    Confetti 👑    │
+                  └───────────────────┘
 *Add caption explaining your workflow*
 
 For Hardware:
@@ -89,9 +174,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Farha Febin : HTML ,CSS, JS 
+- Fidha : project idea,UI/UX ,Camera function,documentation
+  
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
