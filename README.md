@@ -87,64 +87,6 @@ https://drive.google.com/file/d/1OWohiEuNII4-2OTp9ot_b0lY6eFSn0o9/view?usp=drive
 The maximum score screen celebrates the user after reaching 100% mouth opening with the MAXIMUM AAAA! message and visual effects.
 
 # Diagrams
-┌───────────────────┐
-                  │   Open Up Website │
-                  └─────────┬─────────┘
-                            │
-                            ▼
-                  ┌───────────────────┐
-                  │   Landing Page    │
-                  │   SAY AAAA! 😮    │
-                  └─────────┬─────────┘
-                            │
-                            ▼
-                  ┌───────────────────┐
-                  │    TRY IT 😮      │
-                  └─────────┬─────────┘
-                            │
-                            ▼
-                  ┌───────────────────┐
-                  │ Camera Permission │
-                  └─────────┬─────────┘
-                            │
-                            ▼
-                  ┌───────────────────┐
-                  │   Live Camera     │
-                  └─────────┬─────────┘
-                            │
-                            ▼
-                  ┌───────────────────┐
-                  │  Face Detection   │
-                  └─────────┬─────────┘
-                            │
-                            ▼
-                  ┌───────────────────┐
-                  │  Mouth Detection  │
-                  └─────────┬─────────┘
-                            │
-                            ▼
-                  ┌───────────────────┐
-                  │ Calculate Opening │
-                  │       0–100%      │
-                  └─────────┬─────────┘
-                            │
-                            ▼
-                  ┌───────────────────┐
-                  │ Display Live Score│
-                  └─────────┬─────────┘
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │    100% ?     │
-                    └───────┬───────┘
-                            │
-                       YES  │
-                            ▼
-                  ┌───────────────────┐
-                  │ MAXIMUM AAAA! 🎉  │
-                  │    Confetti 👑    │
-                  └───────────────────┘
-*Add caption explaining your workflow*
 
 For Hardware:
 
